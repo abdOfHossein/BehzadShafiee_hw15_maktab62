@@ -1,0 +1,24 @@
+[{
+        "id":"1",
+        "username": "abdOfHossein",
+        "password": "12345678",
+        "firstName": "ali",
+        "lastName": "mohammady",
+        "gender": " male"
+    }, {
+        "id":"2",
+        "username": "ghasemSoleimany",
+        "password": "23145678",
+        "firstName": "reza",
+        "lastName": "alizadeh",
+        "gender": " male"
+    },
+    {
+        "id":"3",
+        "username": "yaZahra",
+        "password": "21345678",
+        "firstName": "zahra",
+        "lastName": "rezaei",
+        "gender": " female"
+    }
+]

@@ -1,0 +1,21 @@
+.countainer {
+    width: 350px;
+    height: 500px;
+    margin: 200px auto 0;
+}
+
+.btn-form {
+    margin-top: 10px;
+}
+
+.countainer-userInfo{
+    width: 400px;
+    margin: 140px auto 0;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column
+   
+
+}

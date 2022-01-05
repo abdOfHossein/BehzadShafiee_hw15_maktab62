@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <div class="countainer">
+        <form method="post" action="/reg">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="username">username</label>
+                    <input type="text"  id="username" placeholder="username" name="username">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="password">password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="firstname">firstname:</label>
+                <input type="text" class="form-control" id="firstname" name="firstName" placeholder="firstname">
+            </div>
+            <div class="form-group">
+                <label for="lastname">lastname:</label>
+                <input type="text" class="form-control" id="lastname" name="lastName" placeholder="lastname">
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="inputState">gender</label>
+                <select id="inputState" class="form-control">
+                    <option selected>male</option>
+                    <option>female</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="submit" class="btn btn-primary"><a href="http://localhost:3000/login">backLogin</a></button>
+            </div>
+        </form>
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</html>
